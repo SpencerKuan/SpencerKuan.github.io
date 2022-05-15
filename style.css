@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rokkitt&family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Rokkitt&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro&display=swap');
+
+
+:root {
+    --main-col-black: #0F1108;
+    --main-col-white: #f8f8ff;
+    --main-col-red: #4F7CAC;
+}
+
+
+body, html {
+    margin: 0 0;
+    padding: 0 0;
+
+    font-family: 'Source Code Pro', monospace;
+}
+
+div {
+    margin: auto;
+}
+
+header {
+    margin: auto;
+}
+
+header h1 {
+    margin: 50px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    color: var(--main-col-red);
+    font-weight: 600;
+}
+
+footer {
+    padding: 10px 0px;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 0 50vh 0 50vh var(--main-col-red);
+}
+
+.accent {
+    background-color: var(--main-col-black);
+    color: var(--main-col-red);
+}
+
+.accent-bright {
+    background-color: var(--main-col-red);
+    color: var(--main-col-black);
+}
+
+.light {
+    background-color: var(--main-col-black);
+    color: var(--main-col-white);
+}
+
+.dark {
+    background-color: var(--main-col-white);
+    color: var(--main-col-black);
+}
+
+.container {
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.grid-item {
+    float: left;
+
+    min-width: 150px;
+    min-height: 150px;
+
+    padding: 10px;
+    margin: 10px;
+
+    text-align: center;
+
+    border: 2px solid var(--main-col-white);
+    background-color: var(--main-col-black);
+    color: var(--main-col-white);
+}
+
+.grid-item:hover {
+    background-color: var(--main-col-white);
+    color: var(--main-col-black);
+    transition: 0.5s;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.center-text {
+    margin: 50px 10%;
+}
+
+.border {
+    border: none;
+    border-bottom: 2px solid var(--main-col-red);
+}
+
+.announcement {
+    padding: 1px 20%;
+    font-size: 12px;
+    position: sticky;
+}
+
+.banner {
+    text-align: center;
+    min-height: 100px;
+}
+
+.nav-bar {
+    max-width: 100%;
+}
+
+.nav-bar li {
+    font-size: large;
+    text-align: center;
+    background-color: var(--main-col-black);
+    color: var(--main-col-white);
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.nav-bar li:hover {
+    background-color: var(--main-col-red);
+    color: var(--main-col-black);
+    transition: 0.5s;
+}
+
+.banner-text {
+    left: 50%;
+}
+
+.big-text {
+    font-size: 6vw;
+}
+
+
+.split-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blurb {
+    padding: 50px;
+}
